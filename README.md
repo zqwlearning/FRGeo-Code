@@ -7,30 +7,6 @@
 This is a PyTorch implementation of the “Aligning Geometric Spatial Layout in Cross-View Geo-Localization via Feature Recombination”.
 
 
-
-<div style="display: flex; justify-content: space-between; align-items: center;">
-    <div style="text-align: center;">
-        <image src="images/bubble.jpg" style="width:100%;" style="height:100%;"/>
-        <strong>
-        <p>
-           Performance comparison on CVUSA R@1. Ours (FRGeo) achieves the highest R@1 while enjoying significantly less number of trainable parameters and GFLOPs.
-        </p>
-        </strong>
-    </div>
-    <div style="text-align: center;">
-        <image src="images/motivation.jpg" style="width:100%;" style="height:80%;"/>
-        <strong>
-        <p>
-           Geometric spatial layout correspondence between two views. The context information contained in the same indexed regions is closely related.
-        </p>
-        </strong>
-    </div>
-</div>
-
-
-
-
-
 <div style="text-align:center;">
     <image src="images/overall.jpg" style="width:100%;" style="height:100%;"/>
     <p>
@@ -39,8 +15,6 @@ This is a PyTorch implementation of the “Aligning Geometric Spatial Layout in 
         </strong>
     </p>
 </div>
-
-
 
 # Requirement
 
