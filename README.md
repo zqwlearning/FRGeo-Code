@@ -126,31 +126,32 @@ python -u train.py --dist-url 'tcp://localhost:8080' --multiprocessing-distribut
 # Retrieval Example
 
 <div style="text-align:center;">
-    <image src="images/match_cvusa.jpg" style="width:80%;" style="height:50%;"/>
     <p>
         <strong>
             (a) CVUSA.
         </strong>
     </p>
-    <image src="images/match_cvact.jpg" style="width:80%;" style="height:50%;"/>
+    <image src="images/match_cvusa.jpg" style="width:80%;" style="height:50%;"/>
     <p>
         <strong>
-            (a) CVACT.
+            (b) CVACT.
         </strong>
     </p>
-    <image src="images/match_vigor.jpg" style="width:80%;" style="height:50%;"/>
+    <image src="images/match_cvact.jpg" style="width:80%;" style="height:50%;"/>
     <p>
         <strong>
             (c) VIGOR.
         </strong>
     </p>
+    <image src="images/match_vigor.jpg" style="width:80%;" style="height:50%;"/>
     <p>
         <strong>
             Cross-view image-based retrieval examples on (a) CVUSA, (b) CVACT and (c) VIGOR.
         </strong>
     </p>
 </div>
-# References and Acknowledgements
+
+#References and Acknowledgements
 
 [TransGeo](https://github.com/Jeff-Zilence/TransGeo2022)，[ConvNeXt](https://github.com/facebookresearch/ConvNeXt)，[CVUSA](http://mvrl.cs.uky.edu/datasets/cvusa/)，[VIGOR](https://github.com/Jeff-Zilence/VIGOR)，[OriCNN](https://github.com/Liumouliu/OriCNN)，[Deit](https://github.com/facebookresearch/deit)，[MoCo](https://github.com/facebookresearch/moco)
 
